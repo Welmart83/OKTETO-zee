@@ -1,4 +1,4 @@
-FROM sandy1709/catuserbot:slim-buster
+FROM trying/legendbot:slim-buster
 
 # Cloning repo
 RUN git clone https://github.com/LEGEND-AI/OKTETO.git -b okteto /root/Legendbot
