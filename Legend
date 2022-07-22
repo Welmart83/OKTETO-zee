@@ -1,0 +1,7 @@
+mkdir tempdir && cd tempdir
+wget -q https://github.com/LEGEND-AI/LEGENDBOT/archive/master.zip
+unzip -qq *.zip && rm -f *.zip
+mv * LEGENDBOT
+mv LEGENDBOT ../ && cd ..
+rm -r -f tempdir
+cd LEGENDBOT && bash LEGEND
