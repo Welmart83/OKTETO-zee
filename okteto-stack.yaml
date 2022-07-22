@@ -1,5 +1,5 @@
 services:
-    LEGENDBOT:
+    legendbot:
         build: .
         deploy:
             restart_policy:
